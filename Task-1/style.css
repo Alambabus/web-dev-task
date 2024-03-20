@@ -1,0 +1,77 @@
+#container{
+     
+    border: 2px solid black;
+    text-align: center;
+    width: 60vw;
+    margin: 0 auto;
+    /* height: 100vh; */
+    background-color:whitesmoke;
+}
+#nameOfComapny{
+    background-color: rgb(178, 29, 178);
+    color: white;
+    padding:10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#aboutComapny{
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+#line{
+    color: rgb(178, 29, 178);
+    font-size: 1.5rem;
+}
+#aboutTeam{
+    margin-bottom: 1px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     margin-bottom: 25px;
+     /* border: 2px solid black; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.card img{
+    width: 70%;
+    border-radius: 20cap;
+}
+.name{
+    color: rgb(178, 29, 178);
+}
+
+@media screen and (max-width: 769px) {
+    .card img{
+        margin-left: 20px;
+    }
+}
+
+
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 426px) {
+    .row{
+      display: flex;
+      flex-direction: column;
+    }
+    .row .card{
+        margin-bottom: 10px auto;
+    }
+    .card img{
+        margin-left: 10px;
+    }
+    #nameOfComapny{
+        padding: 5px 5px;
+    }
+}
+
+ 
+
+
